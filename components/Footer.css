@@ -1,0 +1,14 @@
+﻿.footer { background: var(--text-primary); color: white; padding: 80px 0 24px 0; }
+.footer__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 40px; margin-bottom: 60px; }
+.footer__brand-header { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+.footer__logo { height: 40px; width: auto; }
+.footer__brand-title { font-family: var(--font-display); font-size: 1.6rem; font-weight: 800; color: var(--brand-blue-light); }
+.footer__desc { color: var(--gray-300); font-size: 0.95rem; line-height: 1.8; }
+.footer__title { font-size: 1.15rem; font-weight: 700; margin-bottom: 24px; color: white; letter-spacing: 0.5px; }
+.footer__links, .footer__info { display: flex; flex-direction: column; gap: 16px; color: var(--gray-300); font-size: 0.95rem; }
+.footer__links a { transition: var(--transition); }
+.footer__links a:hover { color: var(--brand-blue-light); padding-left: 5px; }
+.footer__bottom { border-top: 1px solid rgba(255,255,255,0.12); padding-top: 24px; text-align: center; display: flex; flex-direction: column; gap: 12px; color: var(--gray-300); font-size: 0.9rem; }
+.footer__credit a { color: var(--brand-blue-light); font-weight: 600; text-decoration: underline; }
+.footer__credit a:hover { color: white; }
+@media (min-width: 768px) { .footer__bottom { flex-direction: row; justify-content: space-between; text-align: left; } }

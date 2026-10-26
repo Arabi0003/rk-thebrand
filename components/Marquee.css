@@ -1,0 +1,4 @@
+﻿.marquee { background: var(--text-dark); color: var(--pure-white); padding: 20px 0; overflow: hidden; white-space: nowrap; }
+.marquee__track { display: inline-block; animation: scrollText 20s linear infinite; }
+.marquee__text { font-family: var(--font-sans); font-size: 0.85rem; font-weight: 600; letter-spacing: 0.2em; }
+@keyframes scrollText { from { transform: translateX(0); } to { transform: translateX(-50%); } }
